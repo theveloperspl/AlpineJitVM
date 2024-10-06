@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Display welcome message with additional information
-echo "Welcome to JitStreamer!"
+echo "Welcome to SideJITServer!"
 echo "Starting the server. This might take a few seconds..."
 
 # Run tailscale up
@@ -17,5 +17,5 @@ usbmuxd
 # Activate the virtual environment
 . ./venv/bin/activate
 
-# Run the JitStreamer binary
-/root/venv/bin/JitStreamer
+# Run the SideJITServer binary
+SideJITServer
